@@ -51,8 +51,8 @@ export default {
       this.showAnswer = true;
 
       pokemonId == this.pokemon.id
-        ? (this.message = 'Andas duro, kbron')
-        : (this.message = `No le sabes, el pokemon es ${this.pokemon.name}`);
+        ? (this.message = 'Correcto')
+        : (this.message = `Fallaste, el pokemon es ${this.pokemon.name}`);
     },
     newGame() {
       this.mixPokemonArray();
